@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.doanandroid.Fragment.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_grammar"
+        android:name="com.example.doanandroid.Fragment.GrammarFragment"
+        android:label="@string/menu_grammar"
+        tools:layout="@layout/fragment_grammar" />
+    <fragment
+        android:id="@+id/nav_favorite"
+        android:name="com.example.doanandroid.Fragment.FavoriteFragment"
+        android:label="@string/menu_favorite"
+        tools:layout="@layout/fragment_favorite" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.doanandroid.Fragment.HistoryFragment"
+        android:label="@string/menu_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.doanandroid.Fragment.SearchFragment"
+        android:label="@string/menu_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/nav_playlist"
+        android:name="com.example.doanandroid.Fragment.PlayListFragment"
+        android:label="@string/menu_playlist"
+        tools:layout="@layout/fragment_play_list" />
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.example.doanandroid.Fragment.SettingFragment"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/fragment_setting" />
+
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.example.doanandroid.Fragment.InfoFragment"
+        android:label="@string/menu_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/nav_note"
+        android:name="com.example.doanandroid.Fragment.NoteFragment"
+        android:label="@string/menu_note"
+        tools:layout="@layout/fragment_note" />
+    <fragment
+        android:id="@+id/nav_exercise"
+        android:name="com.example.doanandroid.Fragment.ExerciseFragment"
+        android:label="@string/menu_excercise"
+        tools:layout="@layout/fragment_exercise" />
+</navigation>

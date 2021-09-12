@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/xoa"
+        android:icon="@drawable/ic_baseline_delete_outline_24"
+        android:title="Xóa"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/adddsp"
+        android:icon="@drawable/ic_baseline_playlist_add_24"
+        android:title="Thêm danh sách phát"
+        app:showAsAction="always" />
+</menu>
